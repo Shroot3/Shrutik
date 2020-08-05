@@ -1,0 +1,65 @@
+h1{
+    text-align: center;
+    color: lightblue;
+    
+}
+
+h2{
+    color: aqua;
+    text-align: right;
+    position: relative;
+    border: 2px solid black;
+    
+}
+
+.container{
+    box-sizing: border-box;
+    height: 200px;
+    width: 33.33%;
+    float: left;
+    padding: 5px 5px 5px 5px;
+    overflow: auto;
+    
+    background-color: #5f9ea0;
+    border: 5px solid darkcyan;
+    color: yellow;
+    
+    
+}
+
+#page{
+    background-color: darkcyan;
+}
+*{
+    box-sizing: border-box;
+}
+
+@media (min-width:992px){
+
+}
+
+@media (min-width:768px) and (max-width:991px){
+    #page{
+        /*background-color: lightgreen;*/
+        
+    }
+    .container{
+        width: 50%;
+
+    }
+    #adjust{
+        width: 100%;
+    }
+}
+
+@media (max-width:767px){
+    #page{
+        /*background-color: mediumblue;*/
+        clear: left;
+        
+    }
+    .container{
+        width: 100%;
+    }
+    
+}
